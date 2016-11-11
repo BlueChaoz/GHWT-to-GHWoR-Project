@@ -27,3 +27,12 @@ StructItemStruct          | base_props          |
 - - StructHeader          |                     |
 - - - StructItemQBKey     | Name                | m_sampPass1Diffuse
 - - - StructItemQBKey     | TextureProperty     | `tex\models\highway\button_grey_Collar01.dds`
+- - StructHeader          |                     |
+- - - StructItemQBKey     | Name                | m_psPass2MaterialColor
+- - - StructItemQBKey     | TextureProperty     | col_half_alpha
+- - StructHeader          |                     |
+- - - StructItemQBKey     | Name                | m_sampPass2Diffuse
+- - - StructItemQBKey     | TextureProperty     | `tex\models\highway\Button_Grey_Highlight_01.dds`
+- - StructHeader          |                     |
+- - - StructItemQBKey     | Name                | m_startFade
+- - - StructItemQBKey     | VectorProperty     | `tex\models\highway\Button_Grey_Highlight_01.dds
