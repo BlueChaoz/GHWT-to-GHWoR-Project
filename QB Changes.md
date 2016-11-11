@@ -10,13 +10,13 @@
 
 **scripts\guitar\guitar_material.qb**
 
-Item                          | Id                  | Value         | Changes
+ Item                         | Id                  | Value         | Changes
 :---------------------------- | :------------------ | :------------ | :---
 · · StructItemQBKey           | Name                | dummy
 · · **[StructItemQBKey]**     | Template            | ~~ImmediateMode_AlphaFade_UI_3Pass~~ | **AnimatedTexture_UI_3Pass**
 · · **[StructItemQBKey]**     | technique           | ~~UI_Col_Tex_2D~~ | **Loop**
 · · **[StructItemQBKey]**     | blendmode           | blend
-· · StructItemQBKeyString     | MaterialProps       | material_props
+· · `StructItemQBKeyString`        | MaterialProps       | material_props
 StructItemStruct              | base_props          |
 · ArrayStruct                 |                     |
 · · StructHeader              |                     |
