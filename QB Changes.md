@@ -6,6 +6,8 @@
 - [ ] Create Animated Drihscol Notes (Essentially D7X v3)
 
 ### GHWT "qb.pak.xen" "qb.pab.xen" "dbg.pak.xen" using modified [QueenBee 1.9](https://cdn.discordapp.com/attachments/233523599464464396/246402850136129547/ModifiedQueenBee1.9.zip)
+#### Changes will be in Bold text
+
 **scripts\guitar\guitar_material.qb**
 
 Item                      | Id                  | Value         
@@ -22,6 +24,6 @@ StructItemStruct          | base_props          |
 - - StructHeader          |                     |
 - - - StructItemQBKey     | Name                | m_sampPass0Diffuse
 - - - StructItemQBKey     | TextureProperty     | `tex\models\highway\button_grey_Base01.dds`
-* StructHeader            |                     |
+- - StructHeader          |                     |
 - - - StructItemQBKey     | Name                | m_sampPass1Diffuse
 - - - StructItemQBKey     | TextureProperty     | `tex\models\highway\button_grey_Collar01.dds`
