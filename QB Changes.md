@@ -14,11 +14,11 @@ Item                      | Id                  | Value
 :------------------------ | :------------------ | :------------ 
 StructItemStruct          | base_data           |
 * StructHeader            |                     |
-- - StructItemQBKey       | Name                | dummy
-- - StructItemQBKey       | Template            | ~~ImmediateMode_AlphaFade_UI_3Pass~~ **AnimatedTexture_UI_3Pass**
-- - StructItemQBKey       | technique           | ~~UI_Col_Tex_2D~~ **Loop**
-- - StructItemQBKey       | blendmode           | blend
-- - StructItemQBKeyString | MaterialProps       | material_props
+    StructItemQBKey       | Name                | dummy
+    **StructItemQBKey**   | Template            | ~~ImmediateMode_AlphaFade_UI_3Pass~~ **AnimatedTexture_UI_3Pass**
+    **StructItemQBKey**   | technique           | ~~UI_Col_Tex_2D~~ **Loop**
+    StructItemQBKey       | blendmode           | blend
+    StructItemQBKeyString | MaterialProps       | material_props
 StructItemStruct          | base_props          |
 * ArrayStruct             |                     |
 - - StructHeader          |                     |
@@ -29,10 +29,10 @@ StructItemStruct          | base_props          |
 - - - StructItemQBKey     | TextureProperty     | `tex\models\highway\button_grey_Collar01.dds`
 - - StructHeader          |                     |
 - - - StructItemQBKey     | Name                | m_psPass2MaterialColor
-- - - StructItemQBKey     | TextureProperty     | ~~col_half_alpha~~ **col_white**
+      **StructItemQBKey** | TextureProperty     | ~~col_half_alpha~~ **col_white**
 - - StructHeader          |                     |
 - - - StructItemQBKey     | Name                | m_sampPass2Diffuse
 - - - StructItemQBKey     | TextureProperty     | `tex\models\highway\Button_Grey_Highlight_01.dds`
 - - StructHeader          |                     |
 - - - StructItemQBKey     | Name                | m_startFade
-- - - StructItemQBKey     | VectorProperty     | `tex\models\highway\Button_Grey_Highlight_01.dds
+- - - StructItemQBKey     | VectorProperty      | `tex\models\highway\Button_Grey_Highlight_01.dds
