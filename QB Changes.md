@@ -7,21 +7,21 @@
 
 ### GHWT "qb.pak.xen" "qb.pab.xen" "dbg.pak.xen" using modified [QueenBee 1.9](https://cdn.discordapp.com/attachments/233523599464464396/246402850136129547/ModifiedQueenBee1.9.zip)
 **scripts\guitar\guitar_material.qb**
-```saphire
-StructHeader
-  StructItemStruct          | base_data
-    StructHeader
-      StructItemQBKey       | Name                | dummy
-      StructItemQBKey       | Template            | ImmediateMode_AlphaFade_UI_3Pass
-      StructItemQBKey       | technique           | UI_Col_Tex_2D
-      StructItemQBKey       | blendmode           | blend
-      StructItemQBKeyString | MaterialProps       | material_props
-  StructItemStruct          | base_props
-    ArrayStruct
-      StructHeader
-        StructItemQBKey     | Name                | m_sampPass0Diffuse
-        StructItemQBKey     | TextureProperty     | tex\models\highway\button_grey_Base01.dds
-    StructHeader
-        StructItemQBKey     | Name                | m_sampPass1Diffuse
-        StructItemQBKey     | TextureProperty     | tex\models\highway\button_grey_Collar01.dds
-```
+
+Item                      | Id                  | Value         
+:------------------------ | :------------------ | :----------- 
+StructItemStruct          | base_data           |
+* StructHeader            |                     |
+- - StructItemQBKey       | Name                | dummy
+- - StructItemQBKey       | Template            | ImmediateMode_AlphaFade_UI_3Pass
+- - StructItemQBKey       | technique           | UI_Col_Tex_2D
+- - StructItemQBKey       | blendmode           | blend
+- - StructItemQBKeyString | MaterialProps       | material_props
+StructItemStruct          | base_props          |
+* ArrayStruct             |                     |
+- - StructHeader          |                     |
+- - - StructItemQBKey     | Name                | m_sampPass0Diffuse
+- - - StructItemQBKey     | TextureProperty     | `tex\models\highway\button_grey_Base01.dds`
+* StructHeader            |                     |
+- - - StructItemQBKey     | Name                | m_sampPass1Diffuse
+- - - StructItemQBKey     | TextureProperty     | `tex\models\highway\button_grey_Collar01.dds`
